@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: staging
+    database: keen-vehicle-413809
+    schema: ny_taxi
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
